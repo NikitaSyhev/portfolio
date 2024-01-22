@@ -1,3 +1,5 @@
+"use strict";
+
 var indexValue = 0;
 function slideShow() {
     setTimeout(slideShow, 5000)
