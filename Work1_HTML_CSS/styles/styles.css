@@ -2,22 +2,22 @@
 * {
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     box-sizing: border-box;
+    font-family: 'Tektur';
+}
+.image_320 {
+    display: none;
+    position: relative;
+    top:0;
+    left: 0;
 }
 .container {
     width: 1920px;
     height: 1000px;
     overflow: hidden;
 }
-
-.container .images {
-    width: 100%;
-    height: 100%;
-}
-
 
 .header {
     position: relative;
@@ -495,6 +495,249 @@
     left: 386px;
 }
     }
+
+
+    @media screen and (max-width: 320px) {
+        .container {
+            width: 320px;
+            height: 763px;
+            overflow: hidden;
+        }
+        
+        .image_320 {
+            display: block;
+        }
+       
+        #image {
+            display: none;
+            height: 100px;
+        }
+
+        .section_1_block {
+            height: 1480px;
+            width: 320px;
+        }
+        .picture_1 {
+            left:32px;
+            top:30px;
+            height: 62px;
+            width: 296px;
+            font-size: 30px;
+            line-height: 30.63px;
+           }
+        .picture_2 {
+            left:32px;
+            top: 135px;
+            height: 373px;
+            width: 296px;
+            font-size: 16px;
+            line-height: 32px;
+            }
+        .picture_3 {
+            width: 320px;
+            height: 196px;
+            top: 1300px;
+            left: 0px;
+        }
+        .picture_4 {
+            width: 320px;
+            height: 196px;
+            top: 1550px;
+            left: 0px;
+        }
+        .picture_5 {
+            width: 320px;
+            height: 424px;
+            top: 1819px;
+            left: 0px;
+        }
+        .picture_6 {
+            width: 320px;
+            height: 1001px;
+            top: 2383px;
+        }
+        .picture_7 {
+            top: 2389px;
+            left: 12px;
+            width: 62px;
+            height: 62px;
+        }
+        .picture_8 {
+            top: 2594px;
+            left: 12px;
+            width: 296px;
+            height: 31px;
+            font-size: 28px;
+            line-height: 30.63px;
+        }
+        .picture_9 {
+          
+            top: 2650px;
+            left: 12px;
+            width: 296px;
+            height: 213px;
+            color: aliceblue;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        .picture_10{
+            top: 2933px;
+            left: 12px;
+            width: 296px;
+            height: 381px;
+        }
+        
+        .picture_11 {
+            top: 2438px;
+            left: 12px;
+            width: 132px;
+            height: 100.072px;
+        }
+        .picture_11_2 {
+            top: 2444.89px;
+            left: 223.06px;
+            width: 84.94px;
+            height: 100.072px;
+        }
+        .picture_12 {
+            width: 320px;
+            height: 1040px;
+            top: 3454px;
+        }
+        .picture_13 {
+            width: 320px;
+            height: 70px;
+            top: 3384px;
+        }
+        .picture_14 {
+            width: 296px;
+            height: 204px;
+            left: 12px;
+            top: 3524px;
+        }
+        .picture_15 {
+            width: 43.85px;
+            height: 44px;
+            left: 12px;
+            top: 3753px;
+        }
+        .picture_17 {
+            width: 175.41px;
+            height: 44px;
+            left: 132.59px;
+            top: 3753px;
+        }
+        .picture_16 {
+            width: 10.55px;
+            height: 49.33px;
+            left: 118.89px;
+            top: 3770.05px;
+        }
+        
+        .picture_18 {
+            width: 296px;
+            height: 62px;
+            left: 12px;
+            top: 3837px;
+            font-size: 28px;
+            line-height: 30.63px;
+        }
+        .picture_19 {
+            width: 296px;
+            height: 245px;
+            left: 12px;
+            top: 3924px;
+            font-size: 16px;
+            line-height: 32px;
+        }
+        .picture_20 {
+            width: 296px;
+            height: 130px;
+            left: 12px;
+            top: 4194px;
+        }
+        .picture_21 {
+            width: 220px;
+            height: 100px;
+            left: 12px;
+            top: 4364px;
+            gap: 10px;
+            padding: 15px 50px 15px 50px;
+        }
+        .picture_23 {
+            width: 320px;
+            height: 587px;
+            top:4692px;
+            left: 0;
+            
+        }
+        .picture_22 {
+            width: 320px;
+            height: 198px;
+            left: 0;
+            top:4494px;
+            transform: translate(0%, 0%);
+            object-fit: cover;
+        }
+        .picture_24 {
+            width: 296px;
+            height: 62px;
+            left: 12px;
+            top:4732px;
+            font-size: 30px;
+            line-height: 30.63px;
+        }
+        .picture_25 {
+            width: 296px;
+            height: 169px;
+            left: 12px;
+            top: 4819px;
+        }
+        }
+        .picture_26 {
+            width: 296px;
+            height: 180.27px;
+            left: 12px;
+            top:5028px
+        }
+        .picture_27 {
+            width: 200px;
+            height: 50px;
+            left: 61px;
+            top: 5319px;
+        }
+        .picture_28 {
+            width: 116.25px;
+            height: 50px;
+            left: 103px;
+            top: 5394px;
+        }
+
+        .picture_29 {
+            width: 74px;
+            height: 19px;
+            left: 123px;
+            top: 5494px;
+        }
+        .picture_30 {
+            width: 242px;
+            height: 19px;
+            left: 39px;
+            top: 5528px;
+        }
+        .picture_31 {
+            width: 320px;
+            height: 40px;
+            top: 5572px;
+        }
+        .picture_32 {
+            width: 253px;
+            height: 14px;
+            top: 5585px;
+            left: 34px;
+        }
+            
 
 
 
